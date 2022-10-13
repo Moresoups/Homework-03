@@ -1,11 +1,12 @@
 function generatePassword() {
-  var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];var generateBtn = document.querySelector("#generate");
+  var generateBtn = document.querySelector("#generate");
+  var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
   var specialCharacters= ["!", "#", "$", "%", "&", "'", "(", ")", "*", "+", ",", "-", ".", "/", "\:", "\;", " < ", "=", " > ", " ? ", "@", "[", "\\", "]", " ^ ", "_", "`", "{", "|", "}", "~"];
   var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   var possibleCharacters = [];
     
 numberOfCharacters = prompt("how long would you like your password (write a number between 3-100)");
-if (numberOfCharacters < 3 || numberOfCharacters > 100) {
+if (numberOfCharacters < 8 || numberOfCharacters > 128) {
   return "the password can not be that long";
 } else if (isNaN(numberOfCharacters)) {
   numberOfCharacters = prompt("not a number, reload to try again");
