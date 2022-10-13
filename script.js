@@ -5,7 +5,7 @@ function generatePassword() {
   var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   var possibleCharacters = [];
     
-numberOfCharacters = prompt("how long would you like your password (write a number between 3-100)");
+numberOfCharacters = prompt("how long would you like your password (write a number between 8-128)");
 if (numberOfCharacters < 8 || numberOfCharacters > 128) {
   return "the password can not be that long";
 } else if (isNaN(numberOfCharacters)) {
