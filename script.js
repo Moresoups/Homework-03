@@ -12,22 +12,26 @@ function generatePassword() {
     
     hasletters = confirm("do you want letters in your password?");
     if (hasletters) {
+      alert("confirmed");
       possibleCharacters = possibleCharacters.concat(letters);
     }
     
     hasNumbers = confirm("Do you want numbers in your password?");
     if (hasNumbers) {
+       alert("confirmed");
       possibleCharacters = possibleCharacters.concat(numbers);
     }
     
     hasSpecial = confirm("Do you want special characters in your password?");  
     if (hasSpecial) {
+      alert("confirmed");
       possibleCharacters = possibleCharacters.concat(specialCharacters);
     }
   
     let finalPassword = ""
   for (let i = 0; i < numberOfCharacters; i++) {
     let rng =[Math.floor(Math.random() * possibleCharacters.length)];
+
     finalPassword = finalPassword + possibleCharacters[rng];
   }
   return finalPassword;
