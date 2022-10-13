@@ -24,10 +24,18 @@ function generatePassword() {
     if (hasSpecial) {
       possibleCharacters = possibleCharacters.concat(specialCharacters);
     }
-    
-    
-    
-    // Write password to the #password input
+  
+    let finalPassword = ""
+  for (let i = 0; i < numberOfCharacters; i++) {
+    let rng =[Math.floor(Math.random() * possibleCharacters.length)];
+    finalPassword = finalPassword + possibleCharacters[rng];
+  }
+  return finalPassword;
+};
+ 
+var generateBtn = document.querySelector("#generate");
+
+
     function writePassword() {
       var password = generatePassword();
       var passwordText = document.querySelector("#password");
@@ -36,6 +44,4 @@ function generatePassword() {
     
     }
     
-    // Add event listener to generate button
     generateBtn.addEventListener("click", writePassword);
-    }
