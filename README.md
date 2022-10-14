@@ -7,7 +7,7 @@ all code in the Index.html and style.css is a starter code and is not mine. all 
 credit to https://www.w3schools.com/ for help with tips and refreshers when I got stuck
 
 # website link:
-https://moresoups.github.io/demo-folder/
+https://moresoups.github.io/Homework-03/
 
 # website screenshot:
 ![screenshot](https://github.com/Moresoups/Homework-03/blob/master/Screenshot%202022-10-13%20194813.png)
