@@ -1,4 +1,4 @@
-# demo-folder
+# Homework- Challenge 03
 
 Website designed to create a randomised password based on user specifications. this was created as part of the challenge 03 homework assignment
 
