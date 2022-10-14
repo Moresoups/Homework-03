@@ -10,5 +10,6 @@ credit to https://www.w3schools.com/js/js_api_intro.asp for help with tips and r
 https://moresoups.github.io/demo-folder/
 
 # website screenshot:
+https://github.com/Moresoups/Homework-03/blob/master/Screenshot%202022-10-13%20194813.png
 
 # link to code repo:
