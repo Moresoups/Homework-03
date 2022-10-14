@@ -2,7 +2,7 @@
 
 Website designed to create a randomised password based on user specifications. this was created as part of the challenge 03 homework assignment
 
-all code in the Index.html and style.css is a starter code and is not mine. all code ub the Script.js is my own work.
+all code in the Index.html and style.css is a starter code and is not mine. all code in the Script.js is my own work.
 
 credit to https://www.w3schools.com/ for help with tips and refreshers when I got stuck
 
