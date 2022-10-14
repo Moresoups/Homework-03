@@ -7,6 +7,7 @@ all code in the Index.html and style.css is a starter code and is not mine. all 
 credit to https://www.w3schools.com/js/js_api_intro.asp for help with tips and refreshers when I got stuck
 
 # website link:
+https://moresoups.github.io/demo-folder/
 
 # website screenshot:
 
