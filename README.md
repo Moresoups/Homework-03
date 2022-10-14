@@ -13,3 +13,4 @@ https://moresoups.github.io/demo-folder/
 ![screenshot](https://github.com/Moresoups/Homework-03/blob/master/Screenshot%202022-10-13%20194813.png)
 
 # link to code repo:
+https://github.com/Moresoups/Homework-03
